@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,200;1,14..32,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+html {
+    height: 100%;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    align-items: center;
+}
+
+.logoName {
+    font-family: "Orbitron", serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3A3A3A
+}
+
+/* header part started*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-sizing: border-box;
+    position: sticky;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.brandID {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    align-items: center;
+    color: #3A3A3A
+}
+
+.rightnav a {
+    margin-left: 34px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3A3A3A
+}
+
+.container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header part ended*/
+
+/* banner css started */
+
+.banner {
+    background-color: #FFFF;
+    display: flex;
+}
+
+.halfwidth {
+    width: 50%;
+}
+
+.rightDiv {
+    display: flex;
+    justify-content: end;
+}
+
+.rightDivImg {
+    width: 475px;
+    height: 475px;
+}
+
+.mainTaitle {
+    font-weight: 800px;
+    font-size: 52px;
+    font-family: "Poppins", serif;
+    color: #3A3A3A;
+}
+
+.bannerDes {
+    margin-top: -40px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A3A3A
+}
+
+.btn {
+    margin-top: 8px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 15px
+}
+
+/* banner css ended */
+
+/* -- logo bar css started */
+.barlogos {
+    margin-top: 65px;
+}
+
+#alibaba {
+    width: 55px;
+    height: 32px;
+    margin-right: 10px;
+    margin-left: 150px;
+    justify-content: space-around;
+}
+
+#amazon {
+    width: 84px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+#daraz {
+    width: 84px;
+    height: 26px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+#ebay {
+    width: 99px;
+    height: 39px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+#rakuten {
+    width: 97px;
+    height: 28px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+#walmart {
+    width: 111px;
+    height: 26px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+#target {
+    width: 90px;
+    height: 38px;
+    margin-right: 10px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+/* -- logo banner css ended */
+
+/*card portion started */
+
+.text {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-family: "Poppins", serif;
+    font-size: 28px;
+    font-weight: 300px;
+    color: #3A3A3A
+}
+
+.card {
+    height: 490px;
+    width: 329px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.099);
+    padding: 18px;
+    margin: 15px, 15px, 15px, 15px;
+
+}
+
+.cardimg {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 150px;
+}
+
+.fa-star {
+    margin-top: 10px;
+    color: #FB8200;
+    width: 0.5px;
+    height: 2px;
+    margin-right: 18px;
+}
+
+.fa-star-half-stroke {
+    margin-top: 10px;
+    color: #FB8200;
+    width: 11px;
+    height: 10px;
+    margin-right: 18px;
+}
+
+.cardhead {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #18191F
+}
+
+.cardDteails {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 24px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+.price {
+    color: #787885;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.produtDes {
+    color: #787885;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: 14px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn2parent {
+    margin-top: 75px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 44px;
+    display: flex;
+    color: #E02C6D;
+    border: none;
+    background-color: white;
+    margin-left: 230px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    padding: 15px;
+}
+
+.seemore {
+    color: #E02C6D;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+/* card portion ended */
+
+/* last div started */
+
+.halfwidthlastdiv {
+    width: 50%;
+}
+
+.lastImg {
+    display: flex;
+    justify-content: left;
+    margin-right: 96px;
+}
+
+.lastText {
+    width: 610px;
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0A0826;
+    font-size: 38px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: last baseline;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 150px;
+
+}
+
+.p2 {
+    width: 501px;
+    height: 88px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.btnL {
+    margin-top: -10px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 15px
+}
+
+/* last div ended */
+
+
+/* footer style started*/
+
+.container4 {
+    width: 100%;
+}
+
+.footer {
+    background-color: #0A0826;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+.footerh {
+    color: #FFFF;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footerp {
+    text-align: center;
+    color: #FFFF;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: 14px;
+    font-weight: 700px
+}
+
+
+.fa-instagram {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFFF;
+    width: 32px;
+    height: 32px;
+}
+
+.fa-dribbble {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFFF;
+    width: 32px;
+    height: 32px;
+}
+
+.fa-twitter {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFFF;
+    width: 32px;
+    height: 32px;
+}
+
+.fa-youtube {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFFF;
+    width: 32px;
+    height: 32px;
+}
+
+/* footer style ended*/
+
+.fa-bars {
+    color: #1B1B1B;
+    width: 24px;
+    height: 24px;
+    justify-content: end;
+}
+
+#menu {
+    margin-left: 20px;
+    display: none;
+}
+
+
+
+/* Media queries started*/
+
+@media (max-width: 1320px) {
+
+    #alibaba {
+        width: 55px;
+        height: 32px;
+        margin-right: 10px;
+        margin-left: 150px;
+        justify-content: space-around;
+    }
+
+    #amazon {
+        width: 74px;
+        height: 25px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+    #daraz {
+        width: 68px;
+        height: 20px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+    #ebay {
+        width: 65px;
+        height: 29px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+    #rakuten {
+        width: 75px;
+        height: 22px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+    #walmart {
+        width: 95px;
+        height: 26px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+    #target {
+        width: 70px;
+        height: 28px;
+        margin-right: 10px;
+        margin-left: 30px;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 1319px) {
+    .container4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1285px) {
+    .container4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    .container4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1222px) {
+    .container4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1185px) {
+    .container4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1185px) {
+    .container4 {
+        padding: 0;
+    }
+
+    .rightnav {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1020px) {}
